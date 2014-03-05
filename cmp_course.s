@@ -4,6 +4,13 @@
 
 #AUTHOR - CHAD CAMPBELL
 
+# cmp_course
+# Compares two courses (given by their two character and number identifiers)
+# by the characters then the numbers. Returns a negative if a is less than b,
+# 0 if they are equal, and a number >0 if a is greater than b.
+
+# cmp_course( char a, char b, int num1, char c, char d, int num2 )
+
 cmp_course:
 
 	# stack setup
